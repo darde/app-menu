@@ -1,0 +1,12 @@
+{
+  "name": "@resultadosdigitais/app-menu",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "bootstrap": "lerna bootstrap"
+  },
+  "dependencies": {
+    "@resultadosdigitais/front-hub": "/home/pablo/workspace/front-hub/packages/front-hub/resultadosdigitais-front-hub-v2.2.0-next.16.tgz",
+    "lerna": "3.22.1"
+  }
+}

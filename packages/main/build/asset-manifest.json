@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/static/css/main.857adb16.css",
+    "main.js": "/app-menu-main@1.1.0.js",
+    "main.js.map": "/app-menu-main@1.1.0.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.a92738aff4246aa4e51b4e8f27b52a4f.js": "/precache-manifest.a92738aff4246aa4e51b4e8f27b52a4f.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.857adb16.css.map": "/static/css/main.857adb16.css.map"
+  },
+  "entrypoints": [
+    "static/css/main.857adb16.css",
+    "app-menu-main@1.1.0.js"
+  ]
+}
