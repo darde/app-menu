@@ -2,22 +2,25 @@
   "name": "app-menu-main",
   "version": "1.1.0",
   "commons": {
-    "version": "3.0.0",
+    "version": "3.0.7",
     "preload": [
       "react@16.12.0",
       "styled-components@5.0.1",
-      "react-router-dom@5.1.2",
       "react-i18next@11.3.3",
-      "react-dom@16.12.0",
-      "i18next@19.1.0"
+      "react-router-dom@5.1.2",
+      "i18next@19.1.0",
+      "react-dom@16.12.0"
     ],
     "dependencies": [
       "react-dom@16.12.0/server",
-      "classnames@2.2.6",
+      "axios@0.20.0",
+      "clsx@^1.1.1",
       "i18next@19.1.0",
+      "jest-junit@^10.0.0",
       "numeral@2.0.6",
       "react@16.12.0",
       "react-dom@16.12.0",
+      "react-hook-form@^6.9.2",
       "react-i18next@11.3.3",
       "react-is@16.12.0",
       "react-router-dom@5.1.2",
@@ -32,7 +35,7 @@
       "path": "static/css/main.857adb16.css",
       "isChunk": true,
       "modules": 19,
-      "size": 109302,
+      "size": 106033,
       "isInitial": true,
       "isAsset": false,
       "isModuleAsset": false
@@ -41,7 +44,7 @@
       "path": "app-menu-main@1.1.0.js",
       "isChunk": true,
       "modules": 19,
-      "size": 109302,
+      "size": 106033,
       "isInitial": true,
       "isAsset": false,
       "isModuleAsset": false
@@ -50,7 +53,7 @@
       "path": "app-menu-main@1.1.0.js.map",
       "isChunk": true,
       "modules": 19,
-      "size": 109302,
+      "size": 106033,
       "isInitial": true,
       "isAsset": false,
       "isModuleAsset": false
@@ -65,7 +68,7 @@
       "isModuleAsset": false
     },
     {
-      "path": "precache-manifest.a92738aff4246aa4e51b4e8f27b52a4f.js",
+      "path": "precache-manifest.5fdab08605847e1b20a3c59047401dd3.js",
       "isChunk": false,
       "modules": 0,
       "size": 0,

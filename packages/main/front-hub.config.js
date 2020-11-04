@@ -6,7 +6,8 @@ module.exports = {
     roles: [],
   },
   events: {
-    listeners: ['changeColor'],
+    emitters: ['changeFontColor'],
+    listeners: ['changeColor', 'changeColor'],
   },
   intl: {
     language: 'pt-BR',

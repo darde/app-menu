@@ -38,6 +38,7 @@ const Button = styled.button`
   border: none;
   border-radius: 4px;
   cursor: pointer;
+  font-size: 11px;
   background: ${({ bgColor }) => bgColor};
 
   &:hover {
@@ -46,13 +47,13 @@ const Button = styled.button`
 `
 
 const menuItems = [
-  { label: 'Pink' },
-  { label: 'Lightblue' },
-  { label: 'Gold' },
-  { label: 'Gray' },
+  { label: 'pink' },
+  { label: 'lightblue' },
+  { label: 'gold' },
+  { label: 'gray' },
 ]
 
-function App({ bgColor }) {
+function App({ bgColor, handleOnClick }) {
   return (
     <AppContainer bgColor={bgColor}>
       <Menu>
@@ -62,7 +63,13 @@ function App({ bgColor }) {
               {
                 menuItems.map(item => (
                   <ListItem key={item.label}>
-                    <Button bgColor={item.label}>{item.label}</Button>
+                    <Button
+                      value={item.label}
+                      onClick={handleOnClick}
+                      bgColor={item.label}
+                    >
+                      Emit changeFontColor {item.label}
+                    </Button>
                   </ListItem>
                 ))
               }
@@ -74,4 +81,4 @@ function App({ bgColor }) {
   )
 }
 
-export default App
+export default React.memo(App)
