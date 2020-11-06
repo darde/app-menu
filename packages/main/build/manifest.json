@@ -2,7 +2,7 @@
   "name": "app-menu-main",
   "version": "1.1.0",
   "commons": {
-    "version": "3.0.7",
+    "version": "3.0.9-canary.254.3778.0",
     "preload": [
       "react@16.12.0",
       "styled-components@5.0.1",
@@ -35,7 +35,7 @@
       "path": "static/css/main.857adb16.css",
       "isChunk": true,
       "modules": 19,
-      "size": 106033,
+      "size": 106549,
       "isInitial": true,
       "isAsset": false,
       "isModuleAsset": false
@@ -44,7 +44,7 @@
       "path": "app-menu-main@1.1.0.js",
       "isChunk": true,
       "modules": 19,
-      "size": 106033,
+      "size": 106549,
       "isInitial": true,
       "isAsset": false,
       "isModuleAsset": false
@@ -53,7 +53,7 @@
       "path": "app-menu-main@1.1.0.js.map",
       "isChunk": true,
       "modules": 19,
-      "size": 106033,
+      "size": 106549,
       "isInitial": true,
       "isAsset": false,
       "isModuleAsset": false
@@ -68,7 +68,7 @@
       "isModuleAsset": false
     },
     {
-      "path": "precache-manifest.5fdab08605847e1b20a3c59047401dd3.js",
+      "path": "precache-manifest.f85bd4cbeebfe2ea7ac64b00c9454fb8.js",
       "isChunk": false,
       "modules": 0,
       "size": 0,
